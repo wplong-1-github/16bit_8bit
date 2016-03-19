@@ -1,7 +1,7 @@
 # Makefile for Trandom*.cpp file
 # compiled with g++
 # libraries linked to root
-
+# make sure you have ROOT environment setup before running this file
 
 all: Trandom.out Trandom2.out Trandom3.out Trandom4.out Trandom5.out Trandom6.out	
 
