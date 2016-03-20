@@ -1,0 +1,25 @@
+function void RandGenerate(pass 224 array)
+	 generate 224 random number
+
+
+function void RandFlip(pass 224 arry)
+	 generate a random number [0,223]
+	 Flip that element
+
+function void CRC(224 arry, 8 element):
+	 simulate the process of CRC
+
+main:
+	creat 224 array 
+	creat 8 arry
+
+1million for loop:
+	clear necessary data
+	RandGenerate
+	CRC
+	Store base data
+	RandFlip
+	CRC
+	Compare
+	if equal -> equ++
+	   nequal -> nequ++
