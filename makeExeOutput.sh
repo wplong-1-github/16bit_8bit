@@ -4,7 +4,7 @@ name=random
 extension=.cpp
 outExtension=.out
 
-for (( i=2; i<7; i=i+1 ))
+for (( i=1; i<21; i=i+1 ))
 do
     preProgramName="$name$i$extension"
     nextProgramName=$name$i"N14"$extension
